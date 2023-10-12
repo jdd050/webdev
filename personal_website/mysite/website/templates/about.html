@@ -1,7 +1,15 @@
 <!-- autobiography page -->
 
 {% extends 'base.html' %}
+{% load static %}
 
 {% block index %}
-<h1>About Me</h1>
+{% include 'navbar.html' %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'website/style.css'%}">
+
+<div>
+    <h1>About Me</h1>
+</div>
+
 {% endblock %}
