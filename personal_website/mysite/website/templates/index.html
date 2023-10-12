@@ -1,5 +1,15 @@
-{% extends 'base.html' %}
+<!-- homepage -->
 
-{% block content %}
-<h1>Homepage</h1>
+{% extends 'base.html' %}
+{%load static %}
+
+{% block index %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'website/style.css'%}">
+
+<div id="homepage-section-one">
+    {% include 'navbar.html' %}
+    <h2 id="homepage-welcome">Welcome to my website!</h2>
+</div>
+
 {% endblock %}

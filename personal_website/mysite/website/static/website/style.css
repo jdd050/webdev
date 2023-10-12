@@ -1,3 +1,29 @@
-h1 {
-    color:blue;
+#homepage-section-one {
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: auto;
+    overflow-y: auto;
+
+    background-image: linear-gradient(to top left, rgba(97, 130, 100, 0.85), rgba(97, 130, 100, 0.25), rgba(97, 130, 100, 0.85));
+}
+
+#homepage-welcome {
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    visibility: visible;
+
+    -webkit-animation: moving 5s infinite;
+    animation: moving 5s infinite;
+}
+
+@-webkit-keyframes moving {
+    from {top:0%;}
+    to {top:50%;}
+}
+
+@keyframes moving {
+    from {top: 0%;}
+    to {top:50%;}
 }
