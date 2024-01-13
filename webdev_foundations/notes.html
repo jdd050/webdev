@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Webdev Foundations Notes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <fieldset id="q1">
+            <legend>This is a fieldset tag!</legend>
+
+            <p>This is a paragraph tag. Not much happens here</p>
+            <p><a href="https://google.com/">here's a link to google homepage lol</a></p>
+            <mark>This text is highlighted by a mark tag.<br></mark><br>
+
+            <fieldset id="nested_fieldset">
+                <legend> Here's a fieldset within a fieldset that contains a code tag</legend>
+                <p>it's also styled with CSS!</p>
+
+                <code>
+                    #include &lt;stdio.h&gt;<br>
+                    int main()&nbsp;<br> 
+                    {&nbsp;<br>
+                        char message[] = "This is a code tag that represents C code";&nbsp;<br>
+                        printf("%s", message);&nbsp;<br>
+                    }&nbsp;<br>
+                </code>
+            </fieldset>
+
+            <p><samp>Here's a samp tag. It literally just changes the font to consolas to "mimic computer output</samp></p>
+            
+            <p><b>This text is BOLD</b> <i>This text is italic</i> <u>This text is underlined</u><br></p>
+
+            <figure id="smiley">
+                <img src="smile.png">
+                <figcaption>Here's a random smiley face I drew in mspaint in a figure tag (this is a figcaption)</figcaption>
+            </figure>
+
+        </fieldset>
+
+    <section id="q2">
+    <ul>
+        Holy crap an unordered list
+            <li>We</li>
+            <li>do not</li>
+            <li>care</li>
+    </ul>
+
+    <ol type="a">
+        holy crap!!! ordered list!!!!
+            <li>it has</li>
+            <li>letters n</li>
+            <li>shit</li>
+    </ol>
+
+    <table>
+        <caption id="table_caption">its a mf table</caption>
+        <tr>
+            <th>header one</th>
+            <th>header two</th>
+            <th>header three</th>
+        </tr>
+        <tr>
+            <td>head one data</td>
+            <td>head two data</td>
+            <td>head three data</td>
+        </tr>
+        <tr>
+            <td>head one data</td>
+            <td>head two data</td>
+            <td>head three data</td>
+        </tr>
+    </table>
+
+    <br>
+
+        <p>
+            <label for="text_line">this is a label for a input box</label><br>
+            <input type="text" name="text_line" id="text_line" placeholder="this is placeholder text">
+        </p>
+
+        <p>
+            <label for="text_area">This is a label for this text area</label><br>
+            <textarea name="text_area" id="text_area"></textarea>
+        </p>
+
+        <p>
+            <button type="button">this is a BUTTON</button><br>
+        </p>
+
+        <p>
+            <label for="select">this is the label for this select tag</label><br>
+            <select name="select" size="5">
+                <option value="1">option 1</option>
+                <option value="2">option 2</option>
+                <option value="3">option 3</option>
+                <option value="4">option 4</option>
+                <option value="5">option 5</option>
+            </select>
+        </p>
+    </section>
+    </body>
+</html>

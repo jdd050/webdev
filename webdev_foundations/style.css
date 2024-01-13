@@ -1,0 +1,28 @@
+#q1 {
+    max-width: 500px;
+    float: left;
+}
+
+#q2 {
+    float: right;
+}
+#nested_fieldset {
+    color: red;
+    border-color: red;
+}
+
+#smiley {
+    background-color: blueviolet;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+#table_caption {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+table, th, td {
+    border: 2.5px solid black;
+    border-collapse: collapse;
+}
